@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css");
+
+* {
+    margin: 10px;
+}
+
+input[type="search"] {
+    display: block;
+    margin: 0 auto;
+    max-width: 70%;
+    padding: 10px;
+    border: 2px solid transparent;
+    background: linear-gradient(194deg, rgba(83,182,232,0.2315519957983193) 0%, rgba(0,187,255,0.43323266806722693) 100%);
+}
+
+input[type="search"]:focus {
+    outline: none;
+    border-color: transparent;
+}
+
+img.logo {
+    display: inline;
+    width: 48px;
+    float: right;
+    margin-top: 26px;
+    cursor: pointer;
+}
+
+div.header {
+    display: inline;
+}
+
+div.cesta span {
+    font-weight: 700;
+}
+
+.container {
+    max-width: 900px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.div-card {
+    text-align: center;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(148, 202, 229);
+    box-shadow: 10px 6px 6px rgba(0, 0, 0, 0.221); /* Ajustado para usar rgba para el color */
+    width: 240px;
+    height: 280px;
+    margin-bottom: 120px;
+}
+
+.div-card button {
+    flex: 1; /* Ajustado a 'flex: 1' para que ocupe todo el espacio disponible */
+    margin-bottom: 6px; /* Ajustado a 'margin-bottom' en lugar de 'margin-block-end' */
+}
+
+
+.div-card:hover {
+    background-color:rgb(207, 240, 255);
+    transition: .5s ease-in;
+    box-shadow: 5px 20px 60px rgba(171, 228, 240, 0.86);
+}
+
+div.imagen {
+    font-size: 60px !important;
+}
+
+div.imagen:hover {
+    transform: scale(1.25);
+    transition: .2s ease-in;
+}
+
+div.producto {
+    font-size: 18px;
+}
+
+div.importe {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.div-card-error {
+    width: auto;
+    padding: 40px;
+    max-width: 900px;
+    text-align: center;
+    border: 1px solid red;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 2px 2px 8px lightgrey;
+    background-color:rgb(156, 192, 232);
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+
+.imagen-error {
+    font-size: 60px;
+}
+
+.leyenda-error {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.leyenda-intento {
+    font-size: 20px;
+}
+
+@media (max-width: 620px) {
+    div.header h1 {
+        font-size: 4rem;
+    }
+
+    div.header img.logo {
+        width: 40px;
+    }
+
+    div.header h2 {
+        font-size: 2rem;
+    }
+}
+
+
+@media (max-width: 380px) {
+    div.header h1 {
+        font-size: 3rem;
+    }
+
+    div.header img.logo {
+        width: 32px;
+    }
+
+    div.header h2 {
+        display: none;
+    }
+}
+
+
+#titulo, #slogan {
+    text-align: center;
+    margin: 0;
+    color: rgb(26, 25, 25); 
+}
+
+.producto-imagen {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.centrar-div {
+    text-align: right;
+}
+
+.button.button-outline {
+    background-color: rgba(171, 228, 240, 0.86);
+    color: #333;
+    text-align: left;
+    padding: center;
+    display: inline-block;
+    border: none;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+
+.button.button-outline:hover {
+    background-color: #45a049;
+    color: white;
+}
+
+.button.button-outline a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.button {
+    background-color: rgba(171, 228, 240, 0.86);
+    color: #333;
+    padding: center;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #45a049;
+    color: white;
+}
+
+.add-to-cart {
+    background-color:rgba(171, 228, 240, 0.86);
+    color: #333;
+    border: none;
+    padding: center;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.add-to-cart:hover {
+    background-color: #45a049;
+}
+
+.add-to-cart:active {
+    background-color: #45a049;
+    color: white;
+}
+
+.imagen img {
+    width: 200px;
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Estilos personalizados para SweetAlert */
+.my-swal {
+    font-family: Arial, sans-serif; /* Ejemplo de fuente personalizada */
+}
+
+.my-swal-title {
+    color: #333; /* Color del título */
+    font-size: 1.5em; /* Tamaño del texto del título */
+}
+
+.my-swal-content {
+    color: #666; /* Color del contenido */
+    font-size: 1.2em; /* Tamaño del texto del contenido */
+}
+
+.my-swal-confirm-button {
+    background-color: red; /* Color de fondo del botón de confirmar */
+    color: red; /* Color del texto del botón de confirmar */
+    border: 1px solid blueviolet; /* Borde del botón de confirmar */
+    padding: 10px 20px; /* Padding del botón de confirmar */
+}
+
+.my-swal-cancel-button {
+    background-color: #ccc; /* Color de fondo del botón de cancelar */
+    color: red; /* Color del texto del botón de cancelar */
+    border: 1px solid #ccc; /* Borde del botón de cancelar */
+    padding: 10px 20px; /* Padding del botón de cancelar */
+}

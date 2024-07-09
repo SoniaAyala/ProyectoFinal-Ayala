@@ -1,0 +1,142 @@
+[
+    {
+      "id": 1,
+      "nombre": "Pendientes Amapola",
+      "imagenSrc": "images/img1.JPG",
+      "precio": 36.99,
+      "categoria": "Pendientes"
+    },
+    {
+      "id": 2,
+      "nombre": "Pendientes Tuliwhite",
+      "imagenSrc": "images/img2.JPG",
+      "precio": 44.99,
+      "categoria": "Pendientes"
+    },
+    {
+      "id": 3,
+      "nombre": "Pendientes The moon",
+      "imagenSrc": "images/img3.JPG",
+      "precio": 23.95,
+      "categoria": "Pendientes"
+    },
+    {
+      "id": 4,
+      "nombre": "Pendientes Flora",
+      "imagenSrc": "images/img4.avif",
+      "precio": 45.00,
+      "categoria": "Pendientes"
+    },
+    {
+      "id": 5,
+      "nombre": "Pendientes Piedras",
+      "imagenSrc": "images/img5.avif",
+      "precio": 27.99,
+      "categoria": "Pendientes"
+    },
+    {
+      "id": 6,
+      "nombre": "Pendientes Sunflower",
+      "imagenSrc": "images/img6.avif",
+      "precio": 35.00,
+      "categoria": "Pendientes"
+    },
+    {
+      "id": 7,
+      "nombre": "Anillo Goldy",
+      "imagenSrc": "images/img7.avif",
+      "precio": 45.9,
+      "categoria": "Anillo"
+    },
+    {
+      "id": 8,
+      "nombre": "Anillo Corazón",
+      "imagenSrc": "images/img8.JPG",
+      "precio": 27.99,
+      "categoria": "Anillo"
+    },
+    {
+      "id": 9,
+      "nombre": "Anillo Ruby",
+      "imagenSrc": "images/img9.avif",
+      "precio": 33,
+      "categoria": "Anillo"
+    },
+    {
+      "id": 10,
+      "nombre": "Anillo Fantastic",
+      "imagenSrc": "images/img10.JPG",
+      "precio": 29.99,
+      "categoria": "Anillo"
+    },
+    {
+      "id": 11,
+      "nombre": "Anillo Reina",
+      "imagenSrc": "images/img11.JPG",
+      "precio": 29.99,
+      "categoria": "Collar"
+    },
+    {
+      "id": 12,
+      "nombre": "Anillo Doble Gold",
+      "imagenSrc": "images/img12.jpg",
+      "precio": 49.99,
+      "categoria": "Collar"
+    },
+    {
+      "id": 13,
+      "nombre": "Collar Flor",
+      "imagenSrc": "images/img13.avif",
+      "precio": 24.99,
+      "categoria": "Collar"
+    },
+    {
+      "id": 14,
+      "nombre": "Collar Piedra",
+      "imagenSrc": "images/img14.avif",
+      "precio": 29.99,
+      "categoria": "Collar"
+    },
+    {
+      "id": 15,
+      "nombre": "Collar Spring",
+      "imagenSrc": "images/img15.jpg",
+      "precio": 29.99,
+      "categoria": "Collar"
+    },
+    {
+      "id": 16,
+      "nombre": "Collar Sunmoon",
+      "imagenSrc": "images/img16.JPG",
+      "precio": 29.99,
+      "categoria": "Collar"
+    },
+    {
+      "id": 17,
+      "nombre": "Collar Emerald",
+      "imagenSrc": "images/img17.JPG",
+      "precio": 29.99,
+      "categoria": "Collar"
+    },
+    {
+      "id": 18,
+      "nombre": "Pulsera Marbre",
+      "imagenSrc": "images/img18.JPG",
+      "precio": 31.99,
+      "categoria": "Pulsera"
+    },
+    {
+      "id": 19,
+      "nombre": "Pulsera Plata",
+      "imagenSrc": "images/img19.avif",
+      "precio": 28.00,
+      "categoria": "Pulsera"
+    },
+    {
+      "id": 20,
+      "nombre": "Pulsera Triple Piedra",
+      "imagenSrc": "images/img20.JPG",
+      "precio": 30.00,
+      "categoria": "Pulsera"
+    }
+]

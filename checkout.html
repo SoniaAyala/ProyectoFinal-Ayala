@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi cesta</title>
+    <link rel="icon" href="images/shopping-cart-blue.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/checkout.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.11.1/dist/sweetalert2.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.11.1/dist/sweetalert2.all.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Mi cesta</h1>
+        <p style="color: #333;">Revisá tus productos antes de confirmar la compra:</p>
+        <hr>
+    </header>
+    <main>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Descripción</th>
+                        <th>Importe</th>
+                        <th>Eliminar</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <div class="total-cesta">
+                <p>TOTAL: <span id="importeTotalCesta">0.00 €</span></p>
+            </div>
+        <div class="centrar-div">
+            <button class="button button-outline" onclick="window.location.href='index.html';"><a href="index.html">Seguir comprando</a></button>
+            <button class="button" id="btnComprar">COMPRAR</button>
+        </div>
+    </main>
+</body>
+</html>
